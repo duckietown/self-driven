@@ -29,6 +29,7 @@ tr {
 #table1 {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
 }
 
 #table1 td:nth-child(1)  {
@@ -43,6 +44,7 @@ tr {
     border-width: 1px;
     padding: 7px;
     text-align: left;
+    font-size: 14;
 }
 
 #table1 td:nth-child(1) {
@@ -124,7 +126,9 @@ table#table-content > tbody > tr > td:nth-child(2) {
 
 #round-box {
     background-color: rgb(252, 235, 108);
-    padding: 10px;
+    padding: 1px;
+    padding-left: 14px;
+    padding-right: 14px;
     border-radius: 15px;
     /* border: solid;
     border-color: black;
@@ -132,6 +136,6 @@ table#table-content > tbody > tr > td:nth-child(2) {
 }
 
 #round-box-border {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     height: 100%;
 }
