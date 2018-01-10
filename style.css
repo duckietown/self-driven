@@ -19,12 +19,6 @@ div.content {
 
 
 
-.panvision {
-    font-size: 0;
-    overflow: hidden;
-    width: 130%;
-    /* position: absolute; */
-}
 tr.invalid {
 	background-color: #fdd;
 }
@@ -36,6 +30,10 @@ tr.invalid {
 #table1 td {
     padding-right: 0.5em;
     vertical-align: top;
+}
+
+#table1 td:nth-child(1) {
+    width: 6em;
 }
 
 #table-content td {
@@ -67,7 +65,16 @@ table#first > tbody > tr > td:nth-child(2) {
 }
 
 img.smallicon {
-    width: 4%;
+    width: 64px;
+
+}
+
+.panvision {
+    font-size: 0;
+    overflow: hidden;
+    width: 130%;
+    height: 96px;
+    /* position: absolute; */
 }
 
 table#table-content > tbody > tr > td:nth-child(1) {
