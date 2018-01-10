@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+	/* font-family: 'VT323'; */
+}
+
+html, body {
+    padding: 0; margin: 0;
+    overflow-x: hidden;
+}
+body {
+	background-color: rgb(255, 204, 0);
+}
+div.content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+
+
+
+.panvision {
+    font-size: 0;
+    overflow: hidden;
+    width: 130%;
+    /* position: absolute; */
+}
+tr.invalid {
+	background-color: #fdd;
+}
+
+#table1 td:nth-child(1)  {
+    text-align: right;
+}
+
+#table1 td {
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+
+#table-content td {
+    padding-right: 2em;
+    vertical-align: top;
+}
+
+#info {
+    display: block;
+    width: 30em;
+    float: right;
+}
+
+table td {
+    vertical-align: top;
+}
+
+
+table#first > tbody > tr > td:nth-child(1) {
+
+    padding-right: 3em;
+    font-size: larger;
+}
+table#first > tbody > tr > td:nth-child(2) {
+    width: 45%;
+    padding-top: 1em;
+    background-color: yellow;
+    padding-left: 1em;
+}
+
+img.smallicon {
+    width: 4%;
+}
+
+table#table-content > tbody > tr > td:nth-child(1) {
+width:50%;
+}
+table#table-content > tbody > tr > td:nth-child(2) {
+width:50%;
+}
