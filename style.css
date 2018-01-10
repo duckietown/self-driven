@@ -10,7 +10,7 @@ html, body {
     overflow-x: hidden;
 }
 body {
-	background-color: rgb(255, 204, 0);
+	background-color: yellow;
 }
 div.content {
     margin-top: 2em;
@@ -19,10 +19,9 @@ div.content {
 }
 
 
-
-tr.invalid {
+/* tr.invalid {
 	background-color: #fdd;
-}
+} */
 
 #table1 td:nth-child(1)  {
     text-align: right;
@@ -31,6 +30,9 @@ tr.invalid {
 #table1 td {
     padding-right: 0.5em;
     vertical-align: top;
+    border: solid;
+    border-color: black;
+    border-width: 1px
 }
 
 #table1 td:nth-child(1) {
@@ -61,7 +63,7 @@ table#first > tbody > tr > td:nth-child(1) {
 table#first > tbody > tr > td:nth-child(2) {
     width: 45%;
     padding-top: 1em;
-    background-color: yellow;
+    background-color:rgb(255, 255, 102);
     padding-left: 1em;
 }
 
@@ -79,10 +81,10 @@ img.smallicon {
 }
 
 table#table-content > tbody > tr > td:nth-child(1) {
-width:50%;
+    width:50%;
 }
 table#table-content > tbody > tr > td:nth-child(2) {
-width:50%;
+    width:50%;
 }
 
 #cool p {
@@ -93,7 +95,7 @@ width:50%;
 #cool {
     padding-top: 0.3em;
     padding-left: 1em;
-    background-color: #fa0;
+    background-color: rgb(255, 255, 102);
     padding-bottom: 1em;
     border-radius: 15px;
 }
