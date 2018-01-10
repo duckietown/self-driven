@@ -83,3 +83,18 @@ width:50%;
 table#table-content > tbody > tr > td:nth-child(2) {
 width:50%;
 }
+
+#cool p {
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+}
+#cool {
+    padding-top: 0.3em;
+    padding-left: 1em;
+    background-color: #fa0;
+    padding-bottom: 1em;
+}
+#cool div {
+
+}
