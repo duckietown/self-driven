@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
-	/* font-family: 'VT323'; */
+    /* font-family: 'VT323'; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -94,7 +95,12 @@ width:50%;
     padding-left: 1em;
     background-color: #fa0;
     padding-bottom: 1em;
+    border-radius: 15px;
 }
-#cool div {
+#cooldiv {
 
+}
+
+#schedule {
+    border-radius: 15px;
 }
