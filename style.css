@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 199, 10);
 }
 
 div.content {
@@ -49,7 +49,7 @@ tr {
 }
 
 #table1 td:nth-child(1) {
-    width: 6em;
+    width: 30%;
 }
 
 #table-content td {
@@ -68,20 +68,23 @@ table td {
 }
 
 
-table#first > tbody > tr > td:nth-child(1) {
+table#first > tbody > tr > tod:nth-child(1) {
 
     padding-right: 3em;
     font-size: larger;
 }
 table#first > tbody > tr > td:nth-child(2) {
-    width: 45%;
+    width: 30%;
     padding-top: 1em;
     background-color:rgb(252, 235, 108);
     padding-left: 1em;
 }
 
-img.smallicon {
+.img {
     width: 64px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -117,7 +120,8 @@ table#table-content > tbody > tr > td:nth-child(2) {
 }
 
 #selfdriven {
-    font-size: 35;
+    font-size: 48;
+    font-family: 'trebuchet MS';
 }
 
 #schedule {
@@ -126,7 +130,7 @@ table#table-content > tbody > tr > td:nth-child(2) {
 }
 
 #round-box {
-    background-color: rgb(252, 235, 108);
+    background-color: rgb(255, 255, 255);
     padding: 1px;
     padding-left: 14px;
     padding-right: 14px;
@@ -138,5 +142,5 @@ table#table-content > tbody > tr > td:nth-child(2) {
 
 #round-box-border {
     padding-bottom: 15px;
-    height: 100%;
+    height: 30%;
 }
