@@ -86,7 +86,7 @@ width:50%;
 
 #cool p {
     text-align: left;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: smaller;
 }
 #cool {
